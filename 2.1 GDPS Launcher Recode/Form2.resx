@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="TabControl1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TabPage1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CheckBox5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CheckBox4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CheckBox3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CheckBox2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CheckBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Button2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Button1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TabPage2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>5/7/2026:
+Windows v1.6.1
+Launcher:
+- Changed Challenge List Redirect Link
+
+In Game:
+- Added custom patches to Geode Mod "Simple Patch Loader"
+
+19/4/2026:
+2.1 GDPS v1.6: Pointercrate Update
+- The Demon List has entered Version 2, with a whole new interface
+  and account system, similar to Pointercrate! Thanks to kacygd 
+  for the source code and making this happen!
+- Fixed version number in launcher
+- Replaced Twitter icon with GDPSHub icon
+- Along with the new gradient background is now available on Android!
+
+25/3/2026:
+Windows v1.5.5
+- Changed Gradient Background
+- Readded Mega Hack Recolor (lets you color the mod menu to
+  your likings)
+- Added Input Lag Fix
+- Added Music Offset Minute Support (lets you set the offset
+  using minutes &lt;mm:ss&gt;)
+
+16/3/2026:
+Windows v1.5.4.3 (Hotfix)
+- Updated the FAQ page in the launcher
+- a little bit more splash text
+STILL NOT A LAUNCHER RECODE BTW
+
+1/2/2026:
+Windows v1.5.4.2 (Hotfix)
+- Change GDPS Directory from "C:\Program Files (x86)\2.1 GDPS"
+  to "C:\Users\AppData\Roaming\2.1 GDPS”
+- Even more splash text :3
+
+17/1/2026:
+Windows v1.5.4.1 (Hotfix)
+- fix issues when modifying gdps program files folder
+
+14th December 2025:
+Windows 1.5.4 (Jolly Edition) Released!
+Lets feel a little bit jolly today
+
+Launcher:
+- Added "Start GDPS on Launch"
+  (Incompatible with Geode unfortunately)
+
+In-Game:
+- Changed Menu Music to
+  "Guardian Tales OST: Lobby - Christmas, Day" (the ost is so cool)
+- Readded FPS Bypass with a little twist!!
+
+7th December 2025:
+Hotfix 1.5.3.1 Released!
+- Removed ConcurrentHTTP as it causes problems on other mods
+
+2nd December 2025:
+Windows 1.5.3 Released!
+Launcher:
+- Added Github button
+- Updated the FAQ page
+
+In-Game:
+- Added ConcurrentHTTP (Allows for download multiple things at once)
+- Added AutoPause (Automatically pause when losing focus or resizing)
+- Added BetterSave (AutomaticallyBacks up your data whenever the
+  game closes)
+- Added Playtest Fix (Fixes the issue where toggling preview mode
+  while playtesting in BetterEdit would break levels)
+
+11th November 2025:
+Windows 1.5.2.2 Released!
+Added "Auto Check for Updates"
+Added an option to close the launcher after launch
+
+20th October 2025:
+Windows 1.5.2 Released!
+Geode Support!
+We now have Geode compatibility for 2.1 GDPS!
+Thanks to DimisAIO!
+
+21st September 2025:
+Windows v1.5.1 Released!
+Launcher:
+- Renamed "What's New?" Button to "Settings" Button
+- Changelogs, FAQ and Credits are now moved to "Settings" window
+- Added Discord RPC to the launcher
+- Removed the ability to minimize the settings windows
+- Added the ability to switch between Demon List and Challenge List
+
+In Game:
+- Added Demons in Garage (allows you to view your demon count
+  in the icon kit)
+- Added Startpos Fix (fixes the lag when playing with startpos or
+  practice mode)
+- Added Effect Lines Fix (fixes the effect lines not showing sometimes)
+
+5th September 2025:
+Windows v1.5 Released!
+A new launcher for 2.1 GDPS was made for more simple and easier
+experience!
+
+24th August 2025:
+GDPSFH is now back! You can now replay 2.1 GDPS.
+
+22nd August 2025:
+GDPSFH is down due to drive failure. Server will be up in 2-3 days.
+
+1st August 2025:
+Windows Update v1.4.41
+
+- Switched from ProxyDLLLoader (adaf-dll loader) to QuickLDR
+by HJFod for more stability
+- Removed InputLagFix
+- Added Alt Tab Fix 
+(Fixes the Bug with Volume Control Mod where if you alt tab and 
+then open GD back up, it'll still think you're holding alt)
+
+5th June 2025:
+Windows Update v1.4.4
+
+- Removed AutoPause as well as some mods that might have cause
+  crashes
+- Added Timestamp Fix and Sum Attempts Mod
+- Reverted the Song Search Mod Replacement change
+
+31st May 2025:
+Classic Map Pack Released!
+
+30th May 2025:
+New Quests are added! Good Luck!
+
+Windows v1.4.3
+
+- Removed FPS Bypass mod as it causes alot of crashes
+- Removed level name when playtesting a level in discord rpc
+
+</value>
+  </data>
+  <metadata name="Label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TabPage3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>How do I register?
+- You can register through the dashboard or inside the GDPS.
+
+My account is disabled? What do i do?
+- In the login page, click the "Activate Acc" button. If that doesnt
+  work, activate your account in the dashboard.
+
+Where are the GDPS files located?
+- They are located in AppData\Roaming\2.1 GDPS
+
+How do I install mods?
+- (QuickLDR) Put the mods inside the quickldr folder, copy the entire
+  name of the file, go to settings.txt and paste the file in.
+  (MH Extensions/GDMegaOverlay) Just drag in the mod into their
+  own mod loader folder.
+
+How do I install Mega Hack?
+- Install the v7 installer, then select "2.1 GDPS.exe" in the directory
+  chooser.
+
+Can I hack?
+- 1 answer, no.
+  You can view the following allowed hacks and mods in our discord
+  server.
+
+I dont have Mega Hack. Is there any other mod menu for free?
+- Yes. Personally, I use GDMO because its the closest to free Mega
+  Hack, but you can choose what mod menu you want. (Ex: GDHM)
+
+Can i use GDPS Switcher for this?
+- This is a 2.1 GDPS brother, so no.
+
+Theres other problems while playing this GDPS. Are there any fix?
+- There are more FAQ and fixes in our discord server.
+
+</value>
+  </data>
+  <metadata name="TabPage4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>@JarvisXD
+- Owner and Founder of 2.1 GDPS
+
+@ChepsGames
+- Owner and Co-Founder of 2.1 GDPS
+
+@Jean
+- For providing me some useful tips while making this launcher and making
+  the 2.1 Geode Index working again!
+
+@ElParaguasXD
+- Providing me more awesome tutorials in her repo
+  https://github.com/ElParaguasXD/GDPS-Launcher (yea its in spanish)
+
+@sa1ntsosethui
+- Providing a more safer and customizable server for GDPSes.
+
+@1.9 GDPS
+- Some game assets are taken from them. Props to them!
+
+@Janix
+- idk he wants to be here for some reason
+
+@Catto
+- Original FPS Bypass Mod
+  https://github.com/CattoDev/IntegratedFPSBypass
+
+@thelazycat
+- Hosting a dedicated Globed server
+
+All of You!
+- For playing and enjoying this GDPS!
+</value>
+  </data>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
+        AACuZgAArmYAHrBmAJauZgDpqmMA/61lAP+wZwD/sGUG/7FkC/+xZAv/smQL/7FlB/+uZgD/r2YA/69m
+        AP+vZgj/0F9U/89fVv+wZgn/rWUA/65mAP+vZgD/rmYA/69nAP+uZgD/rWUA/65mAP+sZQD/rWUA6a5m
+        AJaxZwAfqWMAAK9mAB6uZgC2rmUA/q1lAP+sZAD/r2YA/7BnAP+wZAn/s2QP/7NkD/+yYw//sWQJ/69k
+        AP+tZAD/rWUA/75oKv/5MaX/+TKn/75oK/+sZQD/rmUA/7BnAP+vZgD/rWUA/65mAP+tZQD/sGcA/61l
+        AP+vZgD/r2YA/q1lALasZQAerWUAlrBnAP6vZgD/rWUA/69mAP+xZwD/rmYA/69jCf+zZA//smMP/7Nj
+        D//Adjf/1JJq/8mGUP+tZQn/sWUT/95Qe//dTnz/smYU/61lAP+tZQD/rmUA/65mAP+uZQD/rWUA/61l
+        AP+tZQD/rmUA/7FoAP+uZgD/rGQA/q9mAJauZgDorWUA/61lAP+vZgD/rWUA/6xkAP+uZgD/sGQJ/7Nk
+        D/+xYg3/xXtI//OPmv//TnL//XaO/7N7cf9DJQf/OCII/zgiCP83IAD/OCEA/2M6AP+oYgD/sWcA/65m
+        AP+tZQD/rmYA/65mAP+tZQD/rWUA/61lAP+uZgD/r2YA6K1lAP6sZAD/rGUA/6xlAP+tZQD/rWUA/61l
+        AP+wZAn/smMO/7lrJf/tlJj/6i1S/7oQKv/hFjv/8XCP/1Y+TP8PCAD/JBUA/1UyAP8rGQD/SCoA/2g9
+        AP+uZQD/r2YA/69mAP+sZQD/rWUA/6xkAP+uZgD/r2YA/61lAP+rZAD+q2QA/6ZhAP+kYAD/p2EA/61l
+        AP+vZgD/pWAA/7FlCf+zYw3/0opo//hhf/98Fxf/FAsA/1EOD//yMlH/u3eO/zwjD/81HwD/WzUA/zQe
+        AP9QLwD/LBoA/5NWAP+qYwD/r2YA/6liAP+rZAD/rGQA/61lAP+uZgD/rGQA/65lAP+tZQD/p2IA/6Zh
+        AP+vZgD/sWgA/7lsAP+vZwD/sGQI/7doHf/slJj/yC9C/2Q0Bv8nGAD/NB4B/7IfJv/zbIv/SzZA/wwG
+        AP8JBQD/CgUA/wgFAP8JBQD/Ty4A/5dYAP+oYgD/qWMA/6tkAP+wZwD/r2YA/69mAP+uZgD/r2YA/6lj
+        AP+kXwD/qGIA/7FnAP+qYwD/q2QA/6pjAP+wYwb/xXpC//d5lP9oCxf/BAQA/wQCAP8HBgD/PwYN//E9
+        YP+KXG//QCMA/yUVAP8oFwD/Fg0A/zAcAP8eEQD/f0oA/6RfAP+nYgD/rWUA/7VqAP+wZwD/rmYA/69m
+        AP+vZgD/pmEA/6NfAP+nYQD/ilAA/2o9AP9wQgD/hE0A/6heBv/VjGz/8VRw/4w3Dv9IKQb/KhgA/3JE
+        Af9uSyz/rEdc/5Zvff9YSTn/VEYy/zUjCv9KJR//czk1/yYWCP+ETQD/rWUA/6pjAP+qYwD/qmMA/6xl
+        AP+uZgD/rGQA/6tkAP+6bQD/smgA/7lsAP+aWgD/hE0A/45TAP+UVgD/l1UN/9SIhv/BKkf/JA0D/xAK
+        Av8JBQD/Jx4R/2BYTv9bQij/Y0Yq/2BEKP9VSz//T0E7/8o0hv/7L6v/XCJB/144AP+eXAH/k1UA/49T
+        AP91RAD/UjAA/3NDAP+fXQD/vW4A//OOAP/UfAD/v28A/7FnAP+bWgD/lFYA/5ZoKP99ZUz/jm9z/31I
+        Uf9APz//Pz8//0RERP8/OC//WUo7/7pnI//QdSj/znMm/25KK/87Njr/qyh6/+kwo/+IWXf/WVA+/3tk
+        RP92VCX/XzcA/yUWAP8rGQD/hk4A/9yBAP/6kgD//5UA//aQAP/SewD/u20A/6tkAf+eYg//iHFR/1s/
+        JP93Sx7/d0wf/3pNIP96TB//WkQt/31rUP9nUDz/5Xos//+KM//+iDH/glMw/zAwLv9CJBP/VDtG/1lQ
+        Sf9vRh3/XEEm/2laRf8pGAH/RSgA/7VpAP/1jwD//5YA//+VAP/9lAD//5UA//aQAP/OeAD/vXwg/4Js
+        UP9RRTj/oFkh/+Z/Lf/UdSn/z3En/9FxJv96Syf/TE1O/1pJPf/Rbif/6Xwt/+h6Kv96Ti//Pjgw/5Vx
+        Pv9XUEb/VTwn/9d2Kf+bWib/WU9B/3tIAv/dgQD/9pAA//eQAP/5kQD/+5MA/++LAP/1jwD/9Y8A/+iG
+        AP/Agy7/YUYs/59cHf/hfC3/7n8v/2ZBJ/9sV0r/blhK/3RoX/9UT0f/ZV5V/35bRf+FVk3/d1pO/3Ri
+        UP9IPCv/Y1ZE/3dHHP+yZSP//Igy/6pgKv+FaEH/ynYC/+eGAP/khAD/5YUA/+aGAP/riAD/2X4A/9p/
+        AP/YfgD/13wA/72CMP9vTzb/sF8k/+Z6Lf/vfi7/Zj8f/11IMv9eSDL/YVVI/1ZLPP81Jgz/mlE3//ZJ
+        fv+ndYv/TTUZ/zAfB/9TTET/uGUp//yHMv//iTP/ql4q/4VoQf+/bwL/2H0A/9V7AP/QeQD/z3kA/9R7
+        AP/AcAD/wXEA/8RyAP+wZgD/lWIb/4tzUv9iVUf/rWgs//uXPP/NgzL/xH8w/8h+Lf9xTSX/T1BR/z0/
+        Pf83EyP/7zFy/6hpgv8FAgT/BQUF/0pHRP++czD//5k7//+YO/+qaC//dmBB/6diAv/AcAD/wHAA/8Bw
+        AP+9bwD/vm8A/6pjAP+oYgD/ol4A/3xIAP9pPQH/dEsR/4p5Yv91bVf/iHpW/4N0Uf+WgUn//cpX/8GQ
+        Ov+BWCT/WlJD/1cwPv/vNHr/qGqD/w8IBf8XFRP/UFBO/76dTf//y1T//8tU/6uIP/9nV0H/fkoC/6Nf
+        AP+oYgD/qGIA/6hiAP+mYQD/kVQA/49UAP9hOAD/SSkA/2BFIP9tYE//al5R/29nX/9nYVr/iomK/311
+        V//3yVf/+cJP/+OsRP9oWz7/ZzhG//M5hP+gZn//SDkq/2VcUP9ORjr/waBM///PVv//z1b/q4tA/2FU
+        Qf9ZNQL/ZzwA/4FLAP+RVAD/kFQA/5NVAP97SAD/az4A/zMeAP8nFgD/Sj4u/2ZSNf+0ey3/t30u/6Nv
+        J/9hWU//fHVY//fJV///z1b/8cRR/2dfQf9WLEj/8z+K/5Zief8/Ojn/cFc0/72DMf/tuEz//81W///P
+        Vv+ri0D/XlJB/1EwAv9VMQD/XjcA/3hGAP99SQD/fkkA/y0aAP8bEAD/DggA/wwGAP80MCz/fXBJ//nF
+        U//8xlH/67hL/25RJ/+FaTT//MtW/9yzTv+xlEf/X1tH/20yV//6TZf/hltw/zo4Of90akr/uJlL/+vB
+        V///zVX//89W/6yLQP9VTUH/OSEC/zohAP81HwD/NB4A/zQeAP83IAD/AAAA/wEAAP8BAQD/AAAA/yor
+        LP9+dEz//c9Z///PV//8y1X/4qdD/+euR///z1f/jnU5/1BRUP9HSUf/hSxh//9fqP9wTl//Hh4e/1dX
+        V/9PUEv/vKFQ///RWP//0Vj/rI1B/0NCQf8FBAL/AwIA/wIBAP8BAQD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/Li4v/2llVf+Je0v/i3xM/419Tv+MfE3/inxM/4p8S/9qY0v/PD0+/wEBAv+dKm7//XGy/1M8
+        Sf8AAAD/FA4T/35mdv94bE3/jn5O/4x9TP9wZ0j/RkZG/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8MDAz/NTU1/y8wMv82MTj/ln2U/81upP9TNUb/MTE0/zIyM/8PDw//EgUO/846
+        jv/pf7P/LiAp/wAAAP8RCRD/vEqV/9VSp/9gQln/LS8w/zMzNP8XFxf/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wYABf92WXL/+3/K/2AQN/8AAAD/AAAA/wAA
+        AP8/FDD/9VGu/8N/ov8QCQ3/AAAA/wAAAP8wEib/TRs9/w0GC/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/BwEG/0ItP//undT/rTBx/wgA
+        A/8AAAD/AgAA/48rav//b8T/h2F2/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8JAgj/HAsZ/7mM
+        r//1Zbv/XA8y/wIAAP9FDyr/6Uao//GJxf9CLzr/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/woD
+        Cf8PAg3/aE5k//mZ2//lPZj/qyFi/906lP//Yb//tH2c/w4HC/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/CgMJ/xAEDv8iEB//upCy//9/1P//SrT//1G3/+2NxP9MNkP/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/gAAAOgAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8KAwn/EQUP/w8DDf9BKj3/ypvA//uX2//qmc3/c1Zo/wYCBP8QCg//DQgM/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADoAAAAlgAA
+        AP4AAAD/AAAA/wAAAP8AAAD/AAAA/woDCf8RBQ//EQUP/xADDv8rGij/WklY/zwvOv8DAgP/JhEg/74u
+        jP+oLX7/EgoR/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/gAA
+        AJYAAAAeAAAAtgAAAP4AAAD/AAAA/wAAAP8AAAD/CgMJ/xEFD/8RBQ//EQUP/wsDCv8AAAD/AAAA/wAA
+        AP8/GjX/8Sin/9wsnf8hEB3/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP4AAAC2AAAAHgAAAAAAAAAfAAAAlgAAAOkAAAD/AAAA/wAAAP8HAgb/DQQL/w0EC/8NBAv/CgMI/wMB
+        A/8DAQP/AgEC/w0GDP9gIk7/UR9D/wcDBv8DAQP/AwED/wMBA/8DAQP/AwED/wAAAP8AAAD/AAAA/wAA
+        AP8AAADpAAAAlgAAAB4AAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAE=
+</value>
+  </data>
+</root>
