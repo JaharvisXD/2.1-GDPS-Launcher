@@ -124,9 +124,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global._2._1_GDPS_Launcher_Recode.My.MySettings
+        Friend ReadOnly Property Settings() As Global.TwoPointOne_GDPS_Launcher.My.MySettings
             Get
-                Return Global._2._1_GDPS_Launcher_Recode.My.MySettings.Default
+                Return Global.TwoPointOne_GDPS_Launcher.My.MySettings.Default
             End Get
         End Property
     End Module

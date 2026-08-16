@@ -151,7 +151,13 @@
     <value>True</value>
   </metadata>
   <data name="Label3.Text" xml:space="preserve">
-    <value>5/7/2026:
+    <value>16/8/2026:
+Windows v1.6.2
+- Fully recoded the launcher, open source code at: 
+  https://github.com/JaharvisXD/2.1-GDPS-Launcher
+- 2.1 GDPS will never be flagged as a trojan, malware, and a virus!
+
+5/7/2026:
 Windows v1.6.1
 Launcher:
 - Changed Challenge List Redirect Link
@@ -290,7 +296,6 @@ Windows v1.4.3
 
 - Removed FPS Bypass mod as it causes alot of crashes
 - Removed level name when playtesting a level in discord rpc
-
 </value>
   </data>
   <metadata name="Label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

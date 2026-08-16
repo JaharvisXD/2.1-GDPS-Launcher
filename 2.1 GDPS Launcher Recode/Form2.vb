@@ -1,4 +1,5 @@
 ﻿Imports System.IO
+Imports DiscordRPC
 
 Public Class Form2
 
@@ -14,35 +15,40 @@ Public Class Form2
             My.Settings.Save()
         End If
     End Sub
-
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        CheckBox1.Checked = My.Settings.challengelist
+        CheckBox2.Checked = My.Settings.geode
+        CheckBox3.Checked = My.Settings.quitlauncher
+        CheckBox4.Checked = My.Settings.autoupdate
+    End Sub
     Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
         If CheckBox2.Checked Then
             Label1.Text = ("Currently using: Geode")
-            My.Settings.geode = CheckBox1.Checked
+            My.Settings.geode = CheckBox2.Checked
             My.Settings.Save()
         Else
             Label1.Text = ("Currently using: QuickLDR")
-            My.Settings.geode = CheckBox1.Checked
+            My.Settings.geode = CheckBox2.Checked
             My.Settings.Save()
         End If
     End Sub
 
     Private Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox3.CheckedChanged
         If CheckBox3.Checked Then
-            My.Settings.quitlauncher = CheckBox2.Checked
+            My.Settings.quitlauncher = CheckBox3.Checked
             My.Settings.Save()
         Else
-            My.Settings.quitlauncher = CheckBox2.Checked
+            My.Settings.quitlauncher = CheckBox3.Checked
             My.Settings.Save()
         End If
     End Sub
 
     Private Sub CheckBox4_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox4.CheckedChanged
         If CheckBox4.Checked Then
-            My.Settings.autoupdate = CheckBox3.Checked
+            My.Settings.autoupdate = CheckBox4.Checked
             My.Settings.Save()
         Else
-            My.Settings.autoupdate = CheckBox3.Checked
+            My.Settings.autoupdate = CheckBox4.Checked
             My.Settings.Save()
         End If
     End Sub

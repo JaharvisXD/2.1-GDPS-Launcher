@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net10.0-windows7.0</TargetFramework>
-    <RootNamespace>_2._1_GDPS_Launcher_Recode</RootNamespace>
+    <RootNamespace>TwoPointOne_GDPS_Launcher</RootNamespace>
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
@@ -11,14 +11,15 @@
     <AssemblyName>2.1 GDPS Launcher</AssemblyName>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
     <AssemblyTitle>2.1 GDPS Launcher</AssemblyTitle>
-    <AssemblyVersion>1.6.2.0</AssemblyVersion>
     <Title>2.1 GDPS Launcher</Title>
     <Company>2.1 GDPS</Company>
     <Copyright>© 2.1 GDPS Team. 2026</Copyright>
-    <FileVersion>1.6.2.0</FileVersion>
+    <FileVersion>1.6.2</FileVersion>
     <PackageIcon>icon (2).ico</PackageIcon>
     <Authors>2.1 GDPS Launcher</Authors>
     <Product>2.1 GDPS Launcher</Product>
+    <Version>1.6.2</Version>
+    <AssemblyVersion>1.6.2</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

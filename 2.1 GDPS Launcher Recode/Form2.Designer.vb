@@ -163,10 +163,10 @@ Partial Class Form2
         TabPage2.AutoScroll = True
         TabPage2.Controls.Add(Label3)
         TabPage2.Controls.Add(Label2)
-        TabPage2.Location = New Point(4, 24)
+        TabPage2.Location = New Point(4, 22)
         TabPage2.Name = "TabPage2"
         TabPage2.Padding = New Padding(3)
-        TabPage2.Size = New Size(362, 420)
+        TabPage2.Size = New Size(362, 422)
         TabPage2.TabIndex = 1
         TabPage2.Text = "Changelogs"
         TabPage2.UseVisualStyleBackColor = True
@@ -176,7 +176,7 @@ Partial Class Form2
         Label3.AutoSize = True
         Label3.Location = New Point(3, 3)
         Label3.Name = "Label3"
-        Label3.Size = New Size(340, 1820)
+        Label3.Size = New Size(340, 1885)
         Label3.TabIndex = 1
         Label3.Text = resources.GetString("Label3.Text")
         ' 

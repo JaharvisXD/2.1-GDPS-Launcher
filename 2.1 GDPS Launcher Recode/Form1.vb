@@ -29,10 +29,10 @@ Public Class Form1
         },
         .Timestamps = Timestamps.Now
     })
-        Form2.CheckBox4.Checked = My.Settings.challengelist
-        Form2.CheckBox1.Checked = My.Settings.geode
-        Form2.CheckBox2.Checked = My.Settings.quitlauncher
-        Form2.CheckBox3.Checked = My.Settings.autoupdate
+        Form2.CheckBox1.Checked = My.Settings.challengelist
+        Form2.CheckBox2.Checked = My.Settings.geode
+        Form2.CheckBox3.Checked = My.Settings.quitlauncher
+        Form2.CheckBox4.Checked = My.Settings.autoupdate
         Form2.CheckBox5.Checked = My.Settings.autostart
         If My.Settings.autoupdate Then
             If My.Settings.autoupdate Then
